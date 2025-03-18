@@ -1,4 +1,4 @@
-import { db, auth } from "./firebase";
+import { db, auth } from "./Firebase";
 import { collection, addDoc, doc, updateDoc, arrayUnion, getDocs } from "firebase/firestore";
 
 export const createParty = async (partyName) => {
