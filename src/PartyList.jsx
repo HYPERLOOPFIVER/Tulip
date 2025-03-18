@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getParties, createParty, joinParty } from "./partyUtils";
+import { getParties, createParty, joinParty } from "./PartyUtils";
 
 const PartyList = ({ setPartyId }) => {
   const [parties, setParties] = useState([]);
