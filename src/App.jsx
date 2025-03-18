@@ -14,7 +14,7 @@ import Kgon from "./Links";
 import { grid } from 'ldrs';
 import './App.css';
 import ChatWindow from "./ChatWindow";
-import { setupPresence } from "./presence"; // Import the presence system
+import { setupPresence } from "./Presence"; // Import the presence system
 import Call from "./Call";
 
 grid.register();
